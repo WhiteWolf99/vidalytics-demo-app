@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Under $50",
+        "min" : 0,
+        "max" : 50,
+        "cost" : 4.95
+    },
+
+    {
+        "name" : "Between $50 and $90",
+        "min" : 50,
+        "max" : 90,
+        "cost" : 2.95
+    },
+
+    {
+        "name" : "Over $90",
+        "min" : 90,
+        "max" : null,
+        "cost" : 0
+    }
+]

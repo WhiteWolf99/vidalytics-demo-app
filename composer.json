@@ -1,0 +1,19 @@
+{
+    "name": "feri/vidalytics-demo-app",
+    "description": "Demo app for vidalytics",
+    "require": {
+        "symfony/console": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "WhiteWolf99",
+            "email": "fferencz@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Acme\\":"app/Acme"
+        }
+    }
+}

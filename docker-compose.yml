@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  app:
+    build: .
+    image: vidalytics/demo-app
+    volumes:
+      - ./:/usr/src/myapp:rw,cached
+      - /usr/src/myapp/vendor

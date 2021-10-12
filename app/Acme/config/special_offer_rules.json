@@ -1,0 +1,6 @@
+[
+    {
+        "name" : "Red widget, second if half of the price",
+        "implementation": "RedWidgetRule"
+    }
+]
